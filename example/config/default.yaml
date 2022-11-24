@@ -1,0 +1,10 @@
+env:
+  device: 0
+  seed: null
+  deterministic: no
+  exp_name: default
+  prefix: "{date}_{time}"
+
+training:
+  num_epochs: 10
+  batch_size: 32

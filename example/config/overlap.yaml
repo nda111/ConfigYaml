@@ -1,0 +1,5 @@
+env:
+  device: 1
+
+training:
+  batch_size: 64
