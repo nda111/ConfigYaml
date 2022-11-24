@@ -120,7 +120,7 @@ class ConfigDir(os.PathLike):
         
         # Apply extra arguments: Level 3
         if isinstance(args, Namespace):
-            result = ConfigDir.__inject_dict(result, **args)
+            result = ConfigDir.__inject_dict(result, vars(args))
         else:
             result = ConfigDir.__inject_dict(result, args)
             
